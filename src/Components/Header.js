@@ -8,6 +8,7 @@ const NavContainer = styled.div`
   left: 0;
   width: 100%;
   margin: 20px 0;
+
 `;
 const NavList = styled.ul`
   display: flex;
@@ -18,9 +19,10 @@ const NavList = styled.ul`
 const NavLink = styled.a`
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 5rem;
+  font-weight: 600;
   margin-left: 1rem;
-  color: black;
+  color: #222222;
+
 `;
 export const Header = () => {
   return (
@@ -29,7 +31,7 @@ export const Header = () => {
         <NavList>
           <NavLink href="home"> Home</NavLink>
           <NavLink href="celebrity appearance">CELEBRITY APPEARANCE</NavLink>
-          <NavLink href="Ranbir Kapoor">RanBir Kapoor</NavLink>
+          <NavLink href="Ranbir Kapoor">Ranbir Kapoor</NavLink>
         </NavList>
       </NavContainer>
     </div>
